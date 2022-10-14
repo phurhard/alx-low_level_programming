@@ -1,5 +1,5 @@
 #include <stdio.h>
-/* A c program to print to the standard output using the puts*/ 
+/*A c program to print to the standard output using the puts*/ 
 /**
  * main - Entry point
  *
@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	puts ("\"Programming is like building a multilingual puzzle");
-	return(0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
