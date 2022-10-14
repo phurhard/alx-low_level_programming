@@ -1,5 +1,10 @@
 #include <stdio.h>
 /* A program to print the sizes of different datatypes*/
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int i;
