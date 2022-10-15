@@ -9,7 +9,7 @@ int main(void)
 
 	for (alpHA = 'a'; alpHA <= 'z'; alpHA++)
 		putchar(alpHA);
-	for (alpHA ='A'; alpHA <= 'Z'; alpHA++)
+	for (alpHA = 'A'; alpHA <= 'Z'; alpHA++)
 		putchar(alpHA);
 	putchar('\n');
 	return (0);
