@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-	int alpha;
+	int ahpla;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-		putchar(alpha);
+	for (ahpla = 'z'; ahpla >= 'a'; ahpla--)
+		putchar(ahpla);
 	putchar('\n');
 	return (0);
 }
