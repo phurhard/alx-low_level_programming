@@ -3,7 +3,7 @@
 /**
  * main -Entry point to the code
  * @argc: Counter of arguments
- * @*argv: Array of arguments
+ * @argv: Array of arguments
  * Return: Always 0 as success
  */
 int main(int argc, char *argv[])
@@ -19,8 +19,9 @@ int main(int argc, char *argv[])
 			j = atoi(argv[i]);
 			if (j == 0)
 			{
-					printf("Error\n");
-					return (1);
+
+				printf("Error\n");
+				return (1);
 			}
 			else
 			{
