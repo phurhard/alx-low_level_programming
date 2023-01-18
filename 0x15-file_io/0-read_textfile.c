@@ -36,6 +36,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 			free(buf);
 			return (0);
 		}
+		if (i == EOF)
+			printf("An end of line here %c\n", i);
 	}
 	close(rd);
 	free(buf);
