@@ -1,0 +1,18 @@
+CC := gcc
+SRC := $(wildcard *.c)
+OBJ := $(wildcard *.o)
+NAME := school
+RM := -rm
+all: ${NAME} main.o school.o clean oclean fclean re
+${NAME} : ${OBJ}
+	${CC} ${OBJ} -o ${NAME}
+main.o : m.h
+school.o : school.c
+clean :
+	$(RM) $(NAME)
+oclean : $(OBJ)
+	$(RM) $(OBJ)
+fclean :
+	$(RM) $(NAME) $(OBJ)
+re :
+	make -B
