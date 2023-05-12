@@ -1,0 +1,5 @@
+# Searching ALgorithms
+* Searching algorithms are algorithms used to find a value in a dataset, database, array etc..
+* We have different types of searching algorithms depending on the use case, the type of dataset availablee and the conditions in which the algorithm is to be used.
+## Linear Search: This type of searching algorithm searches each element in the dataset to determine if the value been searched for is present in the dataset. it's time and space complexity are O(n) and O(1) respectively. It is very efficient in small dataset but can be time consuming in large datasets
+## Binary Search: This algorithm works well on sorted datasets. In this type of searching algorithm, the dataset is divided into two halves, and the midpoint value is compared with the value been searched for, if the midpoint value is less than the value searched for, then the leftmost part of the dataset is discarded, n the rightmost part is again divided in half and the same process is repeated, if the value is then found it is returned otherwise it's unsuccessful. It is highly efficient in large dataset than linear search.
